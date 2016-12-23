@@ -1,0 +1,175 @@
+.main{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.head{
+    height: 82px;
+    background-color: #888888;
+    /*margin-bottom: 5px;*/
+    /*background-image: none;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center center;*/
+    /*background-size: cover;*/
+}
+.navigation{
+    height: 40px;
+    background-color: #888888;
+    margin-bottom: 5px;
+}
+.navigation ul{
+    padding:0px;
+    margin:0px;
+}
+.navigation ul li{
+    float:left;
+    position:relative;
+    list-style: none;
+    /*border-left: 1px solid #ffa313;*/
+    width: 200px;
+    text-align: center;
+}
+.navigation ul a{
+    text-decoration:none;
+    color:#fff;
+    display:block;
+    font-weight:bold;
+    height: 50px;
+    background: #AE1C21;;
+    line-height: 50px;
+}
+.navigation ul a:hover{
+    background:#ffa313;
+}
+.navigation ul a:focus{
+    background:#ffa313;
+}
+.navigation li ul a{
+    background:#AE1C21;;
+}
+
+.navigation li ul{
+    position:absolute;
+    display:none;
+    width:200px;
+}
+/*Chỉnh lại khoảng cách các menu*/
+.navigation li:hover ul{
+    display:inline-block;
+}
+
+.maininfo{
+    width: 1000px;
+    min-height: 400px;
+     /*background-color: #888888;*/
+    float: left;
+    margin-right: 5px;
+}
+.foot{
+    clear: both;
+    height: 110px;
+    background-color: #6b4775;
+    padding: 5px;
+    color: white;
+    text-align: left;
+}
+/*chỉnh chữ và ảnh dưới footer*/
+.footinfo{
+    /*clear: both;*/
+    /*height: 200px;*/
+    /*background-color: #AE1C21;*/
+    color: white;
+}
+.footinfo a{
+    text-decoration: none;
+    /*height: 200px;*/
+    color: white;
+}
+.heading3{
+    color: #AE1C21;
+}
+
+
+#logo-container img {
+    width: 100%;
+    height: auto;
+}
+a:hover{
+    background: #7d7d26;
+}
+nav.navbar-default{
+    background: #6b4775;
+    /*padding-left: 75px;*/
+    /*đổi màu nền background chính*/
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: black;
+    background-color: snow;
+    /*chỉnh màu hover khi click vao menu*/
+}
+.navbar-default .navbar-nav>li>a{
+    color: white;
+    background-color: transparent;
+    width: 178px;
+    text-align: center;
+}
+/*doi mau chữ menu*/
+/*Chỉnh lại khoảng cách các menu gian các khoản cách*/
+.navbar-default .navbar-nav>li>a:hover{
+    color: black;
+    background-color: snow;
+}
+/*hieu ung menu hover*/
+.dropdown-menu>li>a {
+    color: #ffa313;
+    text-decoration: none;
+    background-color: #f5f5f5;
+}
+.dropdown-menu>li>a:hover {
+    color: black;
+    text-decoration: none;
+    background-color: yellow;
+}
+/*.mo {*/
+    /*clear: both;*/
+    /*height: 120px;*/
+    /*background-color: #AE1C21;*/
+    /*padding-left: 105px;*/
+    /*color: white;*/
+/*}*/
+.modal-footer {
+    /*padding-left: 105px;*/
+    text-align: left;
+    /*border-top: 1px solid #ca1616;*/
+    background: #AE1C21;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffa313;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+        /*color: #ffa313;*/
+        background: yellow;
+    }
+}
+.chinhkhung{
+    margin-top: -15px;
+}
+.mauchu{
+    color: white;
+    text-align: center;
+}
+#trenhang{
+    display: inline-block;
+}
+li {
+    display: inline;
+}
+.chinhanh{
+    float: right;
+
+}
+.chinhanh1{
+    float: left;
+}
